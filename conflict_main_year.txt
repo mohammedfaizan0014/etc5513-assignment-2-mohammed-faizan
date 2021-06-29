@@ -1,0 +1,116 @@
+Conflict was resolved by keeping the flie version branch-year
+
+---
+title: "My Report"
+author: "Mohammed Faizan"
+output: 
+  bookdown::html_document2
+keep_md: true
+---
+<<<<<<< HEAD
+output: html_document
+keep_md: true
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      messages=FALSE, 
+                      warning=FALSE)
+library(tidyverse)
+library(plotly)
+library(visdat)
+library(naniar)
+```
+=======
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path = "Data/Figures", fig.align ="center",
+                      out.width = "50%",echo = FALSE, 
+                      messages=FALSE, 
+                      warning=FALSE)
+library(tidyverse) #loading tidyverse (creating conflict in branch-year)
+library(plotly)
+library(naniar)
+library(visdat)
+library(bookdown)
+library(knitr)
+
+```
+
+#Reading data
+
+```{r reading-data}
+un_data <- read.csv(here::here("Data/UN_DeathData_Value312.csv"))%>%select(-X)
+```
+##Overview of the data
+
+The UN data on death has `r ncol(un_data)` variables and `r nrow(un_data)` records. 
+The variables in the data are: `r names(un_data)`
+
+checking missingness:`r any_miss(un_data)`
+
+There is no missingness in the data.
+
+###Performing EDA
+
+Unique Values of each varibale in the data set are displayed below:
+
+- **Year**: `r unique(un_data$Year)`
+- **Sex**:  `r unique(un_data$Sex)`
+- **Age**:  `r unique(un_data$Age)`
+- **Cause of Death**:   `r length(unique(un_data$Cause))`
+- **Summary of Cases**: 
+    - Minimum Cases: `r min(un_data$Value)`
+    - Median Cases:  `r median(un_data$Value)`
+    - Maximum Cases: `r max(un_data$Value)`
+    
+**Cases Distribution**
+```{r cases-distribution}
+un_data %>% 
+  group_by(Cause) %>%
+  ggplot() +
+  geom_histogram(mapping = aes(x = Value)) +
+  labs(title = "Deaths Distribution in UN Death Data", x = "Death Cases", y = "Count")
+
+```
+
+
+
+# Deaths by Year
+
+```{r}
+deathsbyyear <- un_data %>% group_by(Year) %>% summarise(n_cases = sum(Value))
+```
+
+It can be seen from Table \@ref(tab:deaths-year) that each year there are over 850,000 deaths. Of the 3 years, 2017 has seen most deaths summing to `r deathsbyyear$n_cases[3]`. And from Figure \@ref(fig:deaths-cause-year), we can see that the distribution of the cause of death is similar.
+
+```{r deaths-year}
+knitr::kable(deathsbyyear, caption = "Deaths by year")
+```
+
+
+```{r deaths-cause-year, fig.cap="Deaths by year and cause"}
+un_data %>%
+  ggplot() +
+  geom_col(mapping = aes(x = Cause, y = Value)) +
+  facet_wrap(~Year, nrow = 3) +
+  labs(title = "Deaths by year and cause", y = "Number of Deaths")
+```
+
+
+
+# Top causes of deaths over all years
+
+Top ten causes of death are shown in Table \@ref(tab:deaths-cause).
+
+```{r deaths-cause}
+temp <- un_data%>%group_by(Cause)%>%summarise(n_deaths = sum(Value))%>%arrange(desc(n_deaths))%>%head(11)
+
+death_cause <- knitr::kable(temp, caption = "Deaths by cause over all years")
+death_cause
+   
+```
+
+
+
+
+
+>>>>>>> year

@@ -1,0 +1,220 @@
+---
+title: "ETC5513 Assignment 2"
+subtitle: "My Report of UNdata on Deaths"
+author: "Prepared by Mohammed Faizan, 31939872, mfai0014@student.monash.edu"
+output: 
+  bookdown::html_document2
+keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path = "Data/Figures", fig.align ="center",
+                      out.width = "50%",echo = FALSE, 
+                      messages=FALSE, 
+                      warning=FALSE)
+library(tidyverse) #loading tidyverse (creating conflict in branch-year)
+library(plotly)
+library(naniar)
+library(visdat)
+library(bookdown)
+library(knitr)
+
+```
+
+#Introduction to the research question and context
+
+This report is based on Open Demographic data published by the United Nations Statistics Division. "The United Nations Statistics Division collects, compiles and disseminates official demographic and social statistics on a wide range of topics."[[1]](http://data.un.org/Data.aspx?d=POP&f=tableCode%3a105%3bcountryCode%3a36%3brefYear%3a2015%2c2016%2c2017&c=2,3,6,8,10,12,14,16,17,18&s=_countryEnglishNameOrderBy:asc,refYear:desc,areaCode:asc&v=1
+) This analysis is made on deaths recorded in Australia in the years, 2015, 2016 and 2017. The records were further filtered and the records with deaths below 311 were eliminated due to data size constraints. Detailed overview of the data is present in Section \@ref(overview). The census data is the collection of population data longitudinally every year to draw remarkable insights and general trends to allow adoption and implementation of strategies for the  betterment of the studied aspect. This data from the United Nations could drive better implementation of vaccination programs, prepare hospital facilities and child care programmes among all others. Summary statistics for distribution of deaths across different variables is performed to gain insights about deaths in each category.
+
+- Deaths by Year \@ref(year)
+- Deaths by Gender\@ref(sex)
+
+
+
+#Exploratory Data Analysis
+
+```{r reading-data}
+un_data <- read.csv(here::here("Data/UN_DeathData_Value312.csv"))%>%select(-X)
+```
+
+##Overview of the data {#overview}
+
+The UN data on death has **`r ncol(un_data)`** variables and **`r nrow(un_data)`** records. 
+The variables in the data are: **`r names(un_data)`**
+
+checking missingness:**`r any_miss(un_data)`**
+
+**There is no missingness in the data.**
+
+###Unique Values of each varibale in the data set are displayed below:
+
+- **Year**: `r unique(un_data$Year)`
+- **Sex**:  `r unique(un_data$Sex)`
+- **Age**:  `r unique(un_data$Age)`
+- **Cause of Death**:   `r length(unique(un_data$Cause))`
+- **Summary of Cases**: 
+    - Minimum Cases: `r min(un_data$Value)`
+    - Median Cases:  `r median(un_data$Value)`
+    - Maximum Cases: `r max(un_data$Value)`
+    
+###Cases Distribution
+```{r cases-distribution, message=FALSE,warning=FALSE}
+un_data %>% 
+  group_by(Cause) %>% 
+  ggplot() +
+  geom_histogram(mapping = aes(x = Value)) +
+  labs(title = "Deaths Distribution in UN Death Data", x = "Death Cases", y = "Count")+coord_cartesian(xlim=c(0,5000))
+
+```
+
+The deaths distribution is skewed and has most records with near to 1500 deaths and has around 200 records with near to 2000, 3000 and 4000 deaths each.
+
+Top ten causes of death are shown in Table \@ref(tab:deaths-cause).
+
+```{r deaths-cause}
+temp <- un_data%>%group_by(Cause)%>%summarise(n_deaths = sum(Value))%>%arrange(desc(n_deaths))%>%head(11)
+
+death_cause <- knitr::kable(temp, caption = "Deaths by cause over all years, ages, sex")
+death_cause
+
+```
+
+
+## Deaths by Year {#year}
+
+Analysis on death by year envisions the pattern of deaths of each country in terms of number of deaths. Death trend becomes charactristic of a country if the deaths are similar each year.  
+
+```{r}
+deathsbyyear <- un_data %>% group_by(Year) %>% summarise(n_cases = sum(Value))
+```
+
+It can be seen from Table \@ref(tab:deaths-year) that each year there are over 850,000 deaths in Australia. Of the 3 years, 2017 has seen most deaths summing to `r deathsbyyear$n_cases[3]`. And from Figure \@ref(fig:deaths-cause-year), we can see that the distribution of the cause of death is similar each year.
+
+```{r deaths-year}
+knitr::kable(deathsbyyear, caption = "Deaths by year")
+```
+
+
+```{r deaths-cause-year, fig.cap="Deaths by year and cause"}
+un_data %>%
+  ggplot() +
+  geom_col(mapping = aes(x = Cause, y = Value)) +
+  facet_wrap(~Year, nrow = 3) +
+  labs(title = "Deaths by year and cause", y = "Number of Deaths")
+```
+
+
+## Death by Gender {#sex}
+
+Analysis of deaths by gender is of utmost importance to recognise trends of the death causes that affect each gender individually and death causes that are general. It can be seen from Table \@ref(tab:deaths-sex) over 100,000 across `r unique(un_data$Year)`. And from Figure \@ref(fig:deaths-cause-sex-proportional), it is noted that equal number of men and women die due to general causes of death.
+```{r dbg}
+deathsbygender <- un_data %>% group_by(Sex) %>% 
+                      summarise(n_cases = sum(Value)) %>%
+                        arrange(desc(n_cases))
+#deathsbygender
+```
+
+
+
+```{r deaths-sex}
+knitr::kable(deathsbygender, caption = "Deaths by Gender")
+```
+```{r}
+deathf <- un_data%>%filter(Sex=="Female")
+deathm <- un_data%>%filter(Sex=="Male")
+deathgeneral <- deathf%>%inner_join(deathm,by=c("Cause"="Cause"))%>%pivot_longer(cols = c(Sex.x,Sex.y),names_to="Gender",values_to="Sex")%>%pivot_longer(cols = c(Value.x,Value.y),names_to="df",values_to="Value")%>%select(-c("Gender","df"))
+```
+Furthermore, there are `r length(unique(deathgeneral$Cause))` causes by which both men and women die. The causes of death that affect only females are listed in \@ref(tab:deaths-cause-sex-tablef) and for males it is listed in \@ref(tab:deaths-cause-sex-tablem). Malignant neoplasm of prostate and Malignant neoplasm of female breast is the cause of most deaths in men and women respectively. Thus, with this information steps can be taken to educate men and women separately with respect to the precautions and treatments related to these causes.
+
+```{r deaths-cause-sex-proportional, fig.cap="Deaths by gender and cause"}
+
+deathgeneral%>%ggplot()+geom_col(mapping = aes(x=Cause,y=Value,fill=Sex),position="fill")+labs(title="Proportional Distribution of Deaths by Gender and Cause")
+#knitr::kable(unique(deathgeneral$Cause),caption = "General Death Causes")
+```
+```{r deaths-cause-sex-tablef, fig.cap="Female Only Deaths"}
+deathfonly <- deathf%>%anti_join(deathgeneral,by=c("Cause"="Cause"))%>%filter(Cause!="")
+deathfonly <- deathfonly%>%group_by(Cause)%>%summarise(n_deaths=sum(Value))%>%kable(caption="Female Only deaths")
+#deathfonly%>%ggplot()+geom_col(mapping = aes(x=Cause,y=Value))+theme(axis.text.x = element_text(angle = 45))
+deathfonly
+```
+```{r deaths-cause-sex-tablem, fig.cap="Male Only Deaths"}
+deathmonly <- deathm%>%anti_join(deathgeneral,by=c("Cause"="Cause"))
+deathmonly <- deathmonly%>%group_by(Cause)%>%summarise(n_deaths=sum(Value))%>%kable(caption="Male Only Deaths")
+deathmonly
+#deathmonly%>%ggplot()+geom_col(mapping = aes(x=Cause,y=Value))+theme(axis.text.x = element_text(angle = 45))
+
+un_data %>%
+  ggplot() +
+  geom_col(mapping = aes(x = Cause, y = Value)) +
+  facet_wrap(Year~Sex, nrow = 3) +
+  labs(title = "Deaths by gender and cause", y = "Number of Deaths")
+```
+
+
+It is seen from Figure \@ref(fig:death-sex-year) that male deaths increase over the years and the death trend for females is not general over these three years.
+
+
+```{r death-sex-year, fig.cap="death-sex-year", message=FALSE}
+un_data %>% group_by(Sex, Year) %>% 
+                      summarise(n_cases = sum(Value)) %>%
+                        arrange(desc(n_cases)) %>% ggplot()+
+geom_col(mapping = aes(x = Sex, y = n_cases, fill = as.factor(Year)), position = "dodge")  +
+  labs(title = "Deaths by gender", y = "Number of Deaths")
+```
+
+
+
+# Conclusion
+
+
+This open data can be used under the condition that "all data and metadata provided on UNdata’s website are available free of charge and may be copied freely, duplicated and further distributed provided that UNdata is cited as the reference"[[1]](http://data.un.org/Data.aspx?d=POP&f=tableCode%3a105%3bcountryCode%3a36%3brefYear%3a2015%2c2016%2c2017&c=2,3,6,8,10,12,14,16,17,18&s=_countryEnglishNameOrderBy:asc,refYear:desc,areaCode:asc&v=1
+). Open data empowers statistians and data experts with enormous analysis effectivness for their projects especially when such data is available from authenticated sources such as UNdata. This report is made to showcase the use of open data in a legitimate context.
+
+Analysis of United Nations death data for Australia has provided for the insights as seen in Section \@ref(overview).Over these 3 years Australia has recorded deaths with similar trends.This open data suggests that there exists a characteristic death trend for Australia.  
+
+
+# Resources
+
+
+R Core Team (2021). R: A language and environment for
+statistical computing. R Foundation for Statistical
+Computing, Vienna, Austria. URL
+https://www.R-project.org/.
+
+**R Packages**
+
+```{r package-citation}
+x <- citation("tidyverse")
+cat("tidyverse\n\n")
+toBibtex(x)
+
+x<- citation("plotly")
+cat("\n\nplotly\n\n")
+toBibtex(x)%>%print()
+
+x<-citation("visdat")
+cat("\n\nvisdat\n\n")
+toBibtex(x)%>%print()
+
+x<-citation("naniar")
+cat("\n\nnaniar\n\n")
+toBibtex(x)%>%print()
+
+
+x<-citation("bookdown")
+cat("\n\nbookdown\n\n")
+toBibtex(x)%>%print()
+
+x<-citation("knitr")
+cat("\n\nknitr\n\n")
+toBibtex(x)%>%print()
+```
+
+**Data Source**:
+
+[1] UNdata |  Demographic Statistics Database | United Nations Statistics Division
+http://data.un.org/Data.aspx?d=POP&f=tableCode%3a105%3bcountryCode%3a36%3brefYear%3a2015%2c2016%2c2017&c=2,3,6,8,10,12,14,16,17,18&s=_countryEnglishNameOrderBy:asc,refYear:desc,areaCode:asc&v=1
+Accessed 10 April 2020
+
+
+

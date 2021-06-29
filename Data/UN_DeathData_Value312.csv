@@ -1,0 +1,997 @@
+"","Year","Sex","Age","Cause","Value"
+"1",2017,"Male","Total","Certain infectious and parasitic diseases, ICD10",1329
+"2",2017,"Male","Total","Septicaemia, ICD10",702
+"3",2017,"Male","Total","Neoplasms, ICD10",26162
+"4",2017,"Male","Total","Malignant neoplasms, ICD10",25524
+"5",2017,"Male","Total","Malignant neoplasm of lip, oral cavity and pharynx, ICD10",601
+"6",2017,"Male","Total","Malignant neoplasm of oesophagus, ICD10",925
+"7",2017,"Male","Total","Malignant neoplasm of stomach, ICD10",719
+"8",2017,"Male","Total","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",2371
+"9",2017,"Male","Total","Malignant neoplasm of liver and intrahepatic bile ducts, ICD10",1241
+"10",2017,"Male","Total","Malignant neoplasm of pancreas, ICD10",1566
+"11",2017,"Male","Total","Malignant neoplasm of trachea, bronchus and lung, ICD10",4911
+"12",2017,"Male","Total","Malignant neoplasm of prostate, ICD10",3275
+"13",2017,"Male","Total","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",2660
+"14",2017,"Male","Total","Endocrine, nutritional and metabolic diseases, ICD10",3493
+"15",2017,"Male","Total","Diabetes mellitus, ICD10",2583
+"16",2017,"Male","Total","Mental and behavioural disorders, ICD10",3807
+"17",2017,"Male","Total","Diseases of the nervous system, ICD10",4269
+"18",2017,"Male","Total","Diseases of the circulatory system, ICD10",21391
+"19",2017,"Male","Total","Hypertensive diseases, ICD10",850
+"20",2017,"Male","Total","Ischaemic heart diseases, ICD10",10514
+"21",2017,"Male","Total","Cerebrovascular diseases, ICD10",4302
+"22",2017,"Male","Total","Diseases of arteries, arterioles and capillaries, ICD10",973
+"23",2017,"Male","Total","Diseases of the respiratory  system, ICD10",8190
+"24",2017,"Male","Total","Influenza, ICD10",508
+"25",2017,"Male","Total","Pneumonia, ICD10",1432
+"26",2017,"Male","Total","Chronic lower respiratory diseases, ICD10",4268
+"27",2017,"Male","Total","Diseases of the digestive system, ICD10",3021
+"28",2017,"Male","Total","Diseases of the liver, ICD10",1295
+"29",2017,"Male","Total","Diseases of the musculoskeletal system and connective tissue, ICD10",490
+"30",2017,"Male","Total","Diseases of the genitourinary system, ICD10",1702
+"31",2017,"Male","Total","Disorders of kidney and ureter, ICD10",1276
+"32",2017,"Male","Total","Certain conditions originating in the perinatal period, ICD10",339
+"33",2017,"Male","Total","Congenital malformations, deformations and chromosomal abnormalities , ICD10",331
+"34",2017,"Male","Total","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified, ICD10",1012
+"35",2017,"Male","Total","External causes, ICD10",6799
+"36",2017,"Male","Total","Accidents, ICD10",4041
+"37",2017,"Male","Total","Transport accidents, ICD10",1019
+"38",2017,"Male","Total","Falls, ICD10",1313
+"39",2017,"Male","Total","Accidental poisoning by and exposure to noxious substances, ICD10",920
+"40",2017,"Male","Total","Intentional self-harm, ICD10",2346
+"41",2017,"Male","Total","All causes, ICD10",82858
+"42",2017,"Male","0","Certain conditions originating in the perinatal period, ICD10",335
+"43",2017,"Male","0","All causes, ICD10",562
+"44",2017,"Male","20 - 24","External causes, ICD10",398
+"45",2017,"Male","20 - 24","All causes, ICD10",506
+"46",2017,"Male","25 - 29","External causes, ICD10",444
+"47",2017,"Male","25 - 29","All causes, ICD10",601
+"48",2017,"Male","30 - 34","External causes, ICD10",490
+"49",2017,"Male","30 - 34","All causes, ICD10",748
+"50",2017,"Male","35 - 39","External causes, ICD10",500
+"51",2017,"Male","35 - 39","All causes, ICD10",919
+"52",2017,"Male","40 - 44","External causes, ICD10",548
+"53",2017,"Male","40 - 44","All causes, ICD10",1246
+"54",2017,"Male","45 - 49","Neoplasms, ICD10",439
+"55",2017,"Male","45 - 49","Malignant neoplasms, ICD10",425
+"56",2017,"Male","45 - 49","Diseases of the circulatory system, ICD10",406
+"57",2017,"Male","45 - 49","External causes, ICD10",542
+"58",2017,"Male","45 - 49","All causes, ICD10",1856
+"59",2017,"Male","50 - 54","Neoplasms, ICD10",832
+"60",2017,"Male","50 - 54","Malignant neoplasms, ICD10",822
+"61",2017,"Male","50 - 54","Diseases of the circulatory system, ICD10",522
+"62",2017,"Male","50 - 54","Ischaemic heart diseases, ICD10",325
+"63",2017,"Male","50 - 54","External causes, ICD10",401
+"64",2017,"Male","50 - 54","All causes, ICD10",2398
+"65",2017,"Male","55 - 59","Neoplasms, ICD10",1438
+"66",2017,"Male","55 - 59","Malignant neoplasms, ICD10",1420
+"67",2017,"Male","55 - 59","Diseases of the circulatory system, ICD10",798
+"68",2017,"Male","55 - 59","Ischaemic heart diseases, ICD10",507
+"69",2017,"Male","55 - 59","External causes, ICD10",408
+"70",2017,"Male","55 - 59","All causes, ICD10",3603
+"71",2017,"Male","60 - 64","Neoplasms, ICD10",2236
+"72",2017,"Male","60 - 64","Malignant neoplasms, ICD10",2209
+"73",2017,"Male","60 - 64","Malignant neoplasm of trachea, bronchus and lung, ICD10",521
+"74",2017,"Male","60 - 64","Diseases of the circulatory system, ICD10",992
+"75",2017,"Male","60 - 64","Ischaemic heart diseases, ICD10",592
+"76",2017,"Male","60 - 64","Diseases of the respiratory  system, ICD10",341
+"77",2017,"Male","60 - 64","All causes, ICD10",4834
+"78",2017,"Male","65 - 69","Neoplasms, ICD10",3148
+"79",2017,"Male","65 - 69","Malignant neoplasms, ICD10",3106
+"80",2017,"Male","65 - 69","Malignant neoplasm of trachea, bronchus and lung, ICD10",726
+"81",2017,"Male","65 - 69","Endocrine, nutritional and metabolic diseases, ICD10",327
+"82",2017,"Male","65 - 69","Diseases of the circulatory system, ICD10",1431
+"83",2017,"Male","65 - 69","Ischaemic heart diseases, ICD10",808
+"84",2017,"Male","65 - 69","Diseases of the respiratory  system, ICD10",520
+"85",2017,"Male","65 - 69","Chronic lower respiratory diseases, ICD10",322
+"86",2017,"Male","65 - 69","External causes, ICD10",326
+"87",2017,"Male","65 - 69","All causes, ICD10",6768
+"88",2017,"Male","70 - 74","Neoplasms, ICD10",3848
+"89",2017,"Male","70 - 74","Malignant neoplasms, ICD10",3773
+"90",2017,"Male","70 - 74","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",324
+"91",2017,"Male","70 - 74","Malignant neoplasm of trachea, bronchus and lung, ICD10",865
+"92",2017,"Male","70 - 74","Malignant neoplasm of prostate, ICD10",396
+"93",2017,"Male","70 - 74","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",401
+"94",2017,"Male","70 - 74","Endocrine, nutritional and metabolic diseases, ICD10",405
+"95",2017,"Male","70 - 74","Diabetes mellitus, ICD10",317
+"96",2017,"Male","70 - 74","Diseases of the nervous system, ICD10",438
+"97",2017,"Male","70 - 74","Diseases of the circulatory system, ICD10",1988
+"98",2017,"Male","70 - 74","Ischaemic heart diseases, ICD10",1070
+"99",2017,"Male","70 - 74","Cerebrovascular diseases, ICD10",372
+"100",2017,"Male","70 - 74","Diseases of the respiratory  system, ICD10",915
+"101",2017,"Male","70 - 74","Chronic lower respiratory diseases, ICD10",584
+"102",2017,"Male","70 - 74","All causes, ICD10",8793
+"103",2017,"Male","75 - 79","Neoplasms, ICD10",4067
+"104",2017,"Male","75 - 79","Malignant neoplasms, ICD10",3969
+"105",2017,"Male","75 - 79","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",366
+"106",2017,"Male","75 - 79","Malignant neoplasm of trachea, bronchus and lung, ICD10",839
+"107",2017,"Male","75 - 79","Malignant neoplasm of prostate, ICD10",506
+"108",2017,"Male","75 - 79","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",441
+"109",2017,"Male","75 - 79","Endocrine, nutritional and metabolic diseases, ICD10",461
+"110",2017,"Male","75 - 79","Diabetes mellitus, ICD10",354
+"111",2017,"Male","75 - 79","Mental and behavioural disorders, ICD10",362
+"112",2017,"Male","75 - 79","Diseases of the nervous system, ICD10",651
+"113",2017,"Male","75 - 79","Diseases of the circulatory system, ICD10",2574
+"114",2017,"Male","75 - 79","Ischaemic heart diseases, ICD10",1258
+"115",2017,"Male","75 - 79","Cerebrovascular diseases, ICD10",567
+"116",2017,"Male","75 - 79","Diseases of the respiratory  system, ICD10",1161
+"117",2017,"Male","75 - 79","Chronic lower respiratory diseases, ICD10",726
+"118",2017,"Male","75 - 79","Diseases of the digestive system, ICD10",316
+"119",2017,"Male","75 - 79","All causes, ICD10",10440
+"120",2017,"Male","80 - 84","Neoplasms, ICD10",3925
+"121",2017,"Male","80 - 84","Malignant neoplasms, ICD10",3812
+"122",2017,"Male","80 - 84","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",345
+"123",2017,"Male","80 - 84","Malignant neoplasm of trachea, bronchus and lung, ICD10",652
+"124",2017,"Male","80 - 84","Malignant neoplasm of prostate, ICD10",621
+"125",2017,"Male","80 - 84","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",445
+"126",2017,"Male","80 - 84","Endocrine, nutritional and metabolic diseases, ICD10",589
+"127",2017,"Male","80 - 84","Diabetes mellitus, ICD10",467
+"128",2017,"Male","80 - 84","Mental and behavioural disorders, ICD10",712
+"129",2017,"Male","80 - 84","Diseases of the nervous system, ICD10",859
+"130",2017,"Male","80 - 84","Diseases of the circulatory system, ICD10",3302
+"131",2017,"Male","80 - 84","Ischaemic heart diseases, ICD10",1568
+"132",2017,"Male","80 - 84","Cerebrovascular diseases, ICD10",749
+"133",2017,"Male","80 - 84","Diseases of the respiratory  system, ICD10",1420
+"134",2017,"Male","80 - 84","Chronic lower respiratory diseases, ICD10",766
+"135",2017,"Male","80 - 84","Diseases of the digestive system, ICD10",379
+"136",2017,"Male","80 - 84","Diseases of the genitourinary system, ICD10",313
+"137",2017,"Male","80 - 84","External causes, ICD10",424
+"138",2017,"Male","80 - 84","Accidents, ICD10",354
+"139",2017,"Male","80 - 84","All causes, ICD10",12340
+"140",2017,"Male","85 - 89","Neoplasms, ICD10",3383
+"141",2017,"Male","85 - 89","Malignant neoplasms, ICD10",3267
+"142",2017,"Male","85 - 89","Malignant neoplasm of trachea, bronchus and lung, ICD10",511
+"143",2017,"Male","85 - 89","Malignant neoplasm of prostate, ICD10",726
+"144",2017,"Male","85 - 89","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",376
+"145",2017,"Male","85 - 89","Endocrine, nutritional and metabolic diseases, ICD10",577
+"146",2017,"Male","85 - 89","Diabetes mellitus, ICD10",436
+"147",2017,"Male","85 - 89","Mental and behavioural disorders, ICD10",1086
+"148",2017,"Male","85 - 89","Diseases of the nervous system, ICD10",852
+"149",2017,"Male","85 - 89","Diseases of the circulatory system, ICD10",4416
+"150",2017,"Male","85 - 89","Ischaemic heart diseases, ICD10",1966
+"151",2017,"Male","85 - 89","Cerebrovascular diseases, ICD10",994
+"152",2017,"Male","85 - 89","Diseases of the respiratory  system, ICD10",1715
+"153",2017,"Male","85 - 89","Pneumonia, ICD10",335
+"154",2017,"Male","85 - 89","Chronic lower respiratory diseases, ICD10",806
+"155",2017,"Male","85 - 89","Diseases of the digestive system, ICD10",416
+"156",2017,"Male","85 - 89","Diseases of the genitourinary system, ICD10",397
+"157",2017,"Male","85 - 89","Disorders of kidney and ureter, ICD10",314
+"158",2017,"Male","85 - 89","External causes, ICD10",527
+"159",2017,"Male","85 - 89","Accidents, ICD10",462
+"160",2017,"Male","85 - 89","Falls, ICD10",318
+"161",2017,"Male","85 - 89","All causes, ICD10",13879
+"162",2017,"Male","90 - 94","Neoplasms, ICD10",1824
+"163",2017,"Male","90 - 94","Malignant neoplasms, ICD10",1746
+"164",2017,"Male","90 - 94","Malignant neoplasm of prostate, ICD10",455
+"165",2017,"Male","90 - 94","Endocrine, nutritional and metabolic diseases, ICD10",401
+"166",2017,"Male","90 - 94","Diabetes mellitus, ICD10",316
+"167",2017,"Male","90 - 94","Mental and behavioural disorders, ICD10",883
+"168",2017,"Male","90 - 94","Diseases of the nervous system, ICD10",487
+"169",2017,"Male","90 - 94","Diseases of the circulatory system, ICD10",3249
+"170",2017,"Male","90 - 94","Ischaemic heart diseases, ICD10",1454
+"171",2017,"Male","90 - 94","Cerebrovascular diseases, ICD10",702
+"172",2017,"Male","90 - 94","Diseases of the respiratory  system, ICD10",1233
+"173",2017,"Male","90 - 94","Pneumonia, ICD10",338
+"174",2017,"Male","90 - 94","Chronic lower respiratory diseases, ICD10",488
+"175",2017,"Male","90 - 94","Diseases of the genitourinary system, ICD10",353
+"176",2017,"Male","90 - 94","External causes, ICD10",403
+"177",2017,"Male","90 - 94","Accidents, ICD10",373
+"178",2017,"Male","90 - 94","All causes, ICD10",9514
+"179",2017,"Male","95 +","Neoplasms, ICD10",459
+"180",2017,"Male","95 +","Malignant neoplasms, ICD10",433
+"181",2017,"Male","95 +","Diseases of the circulatory system, ICD10",1273
+"182",2017,"Male","95 +","Ischaemic heart diseases, ICD10",553
+"183",2017,"Male","95 +","Diseases of the respiratory  system, ICD10",456
+"184",2017,"Male","95 +","All causes, ICD10",3301
+"185",2017,"Female","Total","Certain infectious and parasitic diseases, ICD10",1307
+"186",2017,"Female","Total","Septicaemia, ICD10",780
+"187",2017,"Female","Total","Neoplasms, ICD10",20237
+"188",2017,"Female","Total","Malignant neoplasms, ICD10",19706
+"189",2017,"Female","Total","Malignant neoplasm of oesophagus, ICD10",340
+"190",2017,"Female","Total","Malignant neoplasm of stomach, ICD10",442
+"191",2017,"Female","Total","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",1927
+"192",2017,"Female","Total","Malignant neoplasm of liver and intrahepatic bile ducts, ICD10",673
+"193",2017,"Female","Total","Malignant neoplasm of pancreas, ICD10",1430
+"194",2017,"Female","Total","Malignant neoplasm of trachea, bronchus and lung, ICD10",3351
+"195",2017,"Female","Total","Malignant neoplasm of female breast, ICD10",2898
+"196",2017,"Female","Total","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",1839
+"197",2017,"Female","Total","Endocrine, nutritional and metabolic diseases, ICD10",3327
+"198",2017,"Female","Total","Diabetes mellitus, ICD10",2256
+"199",2017,"Female","Total","Mental and behavioural disorders, ICD10",6350
+"200",2017,"Female","Total","Diseases of the nervous system, ICD10",4936
+"201",2017,"Female","Total","Diseases of the circulatory system, ICD10",22086
+"202",2017,"Female","Total","Hypertensive diseases, ICD10",1467
+"203",2017,"Female","Total","Ischaemic heart diseases, ICD10",8076
+"204",2017,"Female","Total","Cerebrovascular diseases, ICD10",5884
+"205",2017,"Female","Total","Diseases of arteries, arterioles and capillaries, ICD10",850
+"206",2017,"Female","Total","Diseases of the respiratory  system, ICD10",8013
+"207",2017,"Female","Total","Influenza, ICD10",740
+"208",2017,"Female","Total","Pneumonia, ICD10",1582
+"209",2017,"Female","Total","Chronic lower respiratory diseases, ICD10",4089
+"210",2017,"Female","Total","Diseases of the digestive system, ICD10",2909
+"211",2017,"Female","Total","Diseases of the liver, ICD10",621
+"212",2017,"Female","Total","Diseases of the musculoskeletal system and connective tissue, ICD10",911
+"213",2017,"Female","Total","Diseases of the genitourinary system, ICD10",1996
+"214",2017,"Female","Total","Disorders of kidney and ureter, ICD10",1310
+"215",2017,"Female","Total","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified, ICD10",926
+"216",2017,"Female","Total","All other diseases, ICD10",320
+"217",2017,"Female","Total","External causes, ICD10",3910
+"218",2017,"Female","Total","Accidents, ICD10",2903
+"219",2017,"Female","Total","Transport accidents, ICD10",352
+"220",2017,"Female","Total","Falls, ICD10",1469
+"221",2017,"Female","Total","Accidental poisoning by and exposure to noxious substances, ICD10",385
+"222",2017,"Female","Total","Intentional self-harm, ICD10",778
+"223",2017,"Female","Total","All causes, ICD10",78051
+"224",2017,"Female","0","All causes, ICD10",457
+"225",2017,"Female","30 - 34","All causes, ICD10",341
+"226",2017,"Female","35 - 39","All causes, ICD10",476
+"227",2017,"Female","40 - 44","All causes, ICD10",712
+"228",2017,"Female","45 - 49","Neoplasms, ICD10",460
+"229",2017,"Female","45 - 49","Malignant neoplasms, ICD10",454
+"230",2017,"Female","45 - 49","All causes, ICD10",1124
+"231",2017,"Female","50 - 54","Neoplasms, ICD10",821
+"232",2017,"Female","50 - 54","Malignant neoplasms, ICD10",814
+"233",2017,"Female","50 - 54","All causes, ICD10",1610
+"234",2017,"Female","55 - 59","Neoplasms, ICD10",1183
+"235",2017,"Female","55 - 59","Malignant neoplasms, ICD10",1170
+"236",2017,"Female","55 - 59","All causes, ICD10",2262
+"237",2017,"Female","60 - 64","Neoplasms, ICD10",1646
+"238",2017,"Female","60 - 64","Malignant neoplasms, ICD10",1631
+"239",2017,"Female","60 - 64","Malignant neoplasm of trachea, bronchus and lung, ICD10",341
+"240",2017,"Female","60 - 64","Diseases of the circulatory system, ICD10",361
+"241",2017,"Female","60 - 64","All causes, ICD10",2972
+"242",2017,"Female","65 - 69","Neoplasms, ICD10",2209
+"243",2017,"Female","65 - 69","Malignant neoplasms, ICD10",2186
+"244",2017,"Female","65 - 69","Malignant neoplasm of trachea, bronchus and lung, ICD10",472
+"245",2017,"Female","65 - 69","Malignant neoplasm of female breast, ICD10",332
+"246",2017,"Female","65 - 69","Diseases of the circulatory system, ICD10",653
+"247",2017,"Female","65 - 69","Diseases of the respiratory  system, ICD10",409
+"248",2017,"Female","65 - 69","All causes, ICD10",4239
+"249",2017,"Female","70 - 74","Neoplasms, ICD10",2613
+"250",2017,"Female","70 - 74","Malignant neoplasms, ICD10",2568
+"251",2017,"Female","70 - 74","Malignant neoplasm of trachea, bronchus and lung, ICD10",605
+"252",2017,"Female","70 - 74","Malignant neoplasm of female breast, ICD10",330
+"253",2017,"Female","70 - 74","Diseases of the nervous system, ICD10",347
+"254",2017,"Female","70 - 74","Diseases of the circulatory system, ICD10",1028
+"255",2017,"Female","70 - 74","Ischaemic heart diseases, ICD10",404
+"256",2017,"Female","70 - 74","Diseases of the respiratory  system, ICD10",688
+"257",2017,"Female","70 - 74","Chronic lower respiratory diseases, ICD10",494
+"258",2017,"Female","70 - 74","All causes, ICD10",5742
+"259",2017,"Female","75 - 79","Neoplasms, ICD10",2679
+"260",2017,"Female","75 - 79","Malignant neoplasms, ICD10",2622
+"261",2017,"Female","75 - 79","Malignant neoplasm of trachea, bronchus and lung, ICD10",495
+"262",2017,"Female","75 - 79","Endocrine, nutritional and metabolic diseases, ICD10",341
+"263",2017,"Female","75 - 79","Mental and behavioural disorders, ICD10",374
+"264",2017,"Female","75 - 79","Diseases of the nervous system, ICD10",488
+"265",2017,"Female","75 - 79","Diseases of the circulatory system, ICD10",1785
+"266",2017,"Female","75 - 79","Ischaemic heart diseases, ICD10",631
+"267",2017,"Female","75 - 79","Cerebrovascular diseases, ICD10",515
+"268",2017,"Female","75 - 79","Diseases of the respiratory  system, ICD10",922
+"269",2017,"Female","75 - 79","Chronic lower respiratory diseases, ICD10",609
+"270",2017,"Female","75 - 79","All causes, ICD10",7577
+"271",2017,"Female","80 - 84","Neoplasms, ICD10",2772
+"272",2017,"Female","80 - 84","Malignant neoplasms, ICD10",2693
+"273",2017,"Female","80 - 84","Malignant neoplasm of trachea, bronchus and lung, ICD10",419
+"274",2017,"Female","80 - 84","Malignant neoplasm of female breast, ICD10",331
+"275",2017,"Female","80 - 84","Endocrine, nutritional and metabolic diseases, ICD10",483
+"276",2017,"Female","80 - 84","Diabetes mellitus, ICD10",368
+"277",2017,"Female","80 - 84","Mental and behavioural disorders, ICD10",823
+"278",2017,"Female","80 - 84","Diseases of the nervous system, ICD10",784
+"279",2017,"Female","80 - 84","Diseases of the circulatory system, ICD10",3059
+"280",2017,"Female","80 - 84","Ischaemic heart diseases, ICD10",1047
+"281",2017,"Female","80 - 84","Cerebrovascular diseases, ICD10",885
+"282",2017,"Female","80 - 84","Diseases of the respiratory  system, ICD10",1241
+"283",2017,"Female","80 - 84","Chronic lower respiratory diseases, ICD10",702
+"284",2017,"Female","80 - 84","Diseases of the digestive system, ICD10",414
+"285",2017,"Female","80 - 84","External causes, ICD10",347
+"286",2017,"Female","80 - 84","All causes, ICD10",10689
+"287",2017,"Female","85 - 89","Neoplasms, ICD10",2804
+"288",2017,"Female","85 - 89","Malignant neoplasms, ICD10",2673
+"289",2017,"Female","85 - 89","Malignant neoplasm of trachea, bronchus and lung, ICD10",369
+"290",2017,"Female","85 - 89","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",313
+"291",2017,"Female","85 - 89","Endocrine, nutritional and metabolic diseases, ICD10",704
+"292",2017,"Female","85 - 89","Diabetes mellitus, ICD10",499
+"293",2017,"Female","85 - 89","Mental and behavioural disorders, ICD10",1617
+"294",2017,"Female","85 - 89","Diseases of the nervous system, ICD10",1115
+"295",2017,"Female","85 - 89","Diseases of the circulatory system, ICD10",5134
+"296",2017,"Female","85 - 89","Hypertensive diseases, ICD10",343
+"297",2017,"Female","85 - 89","Ischaemic heart diseases, ICD10",1838
+"298",2017,"Female","85 - 89","Cerebrovascular diseases, ICD10",1416
+"299",2017,"Female","85 - 89","Diseases of the respiratory  system, ICD10",1639
+"300",2017,"Female","85 - 89","Pneumonia, ICD10",336
+"301",2017,"Female","85 - 89","Chronic lower respiratory diseases, ICD10",791
+"302",2017,"Female","85 - 89","Diseases of the digestive system, ICD10",562
+"303",2017,"Female","85 - 89","Diseases of the genitourinary system, ICD10",449
+"304",2017,"Female","85 - 89","External causes, ICD10",580
+"305",2017,"Female","85 - 89","Accidents, ICD10",552
+"306",2017,"Female","85 - 89","Falls, ICD10",380
+"307",2017,"Female","85 - 89","All causes, ICD10",15305
+"308",2017,"Female","90 - 94","Neoplasms, ICD10",1801
+"309",2017,"Female","90 - 94","Malignant neoplasms, ICD10",1691
+"310",2017,"Female","90 - 94","Endocrine, nutritional and metabolic diseases, ICD10",618
+"311",2017,"Female","90 - 94","Diabetes mellitus, ICD10",403
+"312",2017,"Female","90 - 94","Mental and behavioural disorders, ICD10",1959
+"313",2017,"Female","90 - 94","Diseases of the nervous system, ICD10",1066
+"314",2017,"Female","90 - 94","Diseases of the circulatory system, ICD10",5621
+"315",2017,"Female","90 - 94","Hypertensive diseases, ICD10",412
+"316",2017,"Female","90 - 94","Ischaemic heart diseases, ICD10",2083
+"317",2017,"Female","90 - 94","Cerebrovascular diseases, ICD10",1430
+"318",2017,"Female","90 - 94","Diseases of the respiratory  system, ICD10",1559
+"319",2017,"Female","90 - 94","Pneumonia, ICD10",439
+"320",2017,"Female","90 - 94","Chronic lower respiratory diseases, ICD10",548
+"321",2017,"Female","90 - 94","Diseases of the digestive system, ICD10",577
+"322",2017,"Female","90 - 94","Diseases of the genitourinary system, ICD10",535
+"323",2017,"Female","90 - 94","Disorders of kidney and ureter, ICD10",331
+"324",2017,"Female","90 - 94","External causes, ICD10",635
+"325",2017,"Female","90 - 94","Accidents, ICD10",612
+"326",2017,"Female","90 - 94","Falls, ICD10",422
+"327",2017,"Female","90 - 94","All causes, ICD10",15169
+"328",2017,"Female","95 +","Neoplasms, ICD10",602
+"329",2017,"Female","95 +","Malignant neoplasms, ICD10",567
+"330",2017,"Female","95 +","Mental and behavioural disorders, ICD10",1281
+"331",2017,"Female","95 +","Diseases of the nervous system, ICD10",467
+"332",2017,"Female","95 +","Diseases of the circulatory system, ICD10",3575
+"333",2017,"Female","95 +","Hypertensive diseases, ICD10",319
+"334",2017,"Female","95 +","Ischaemic heart diseases, ICD10",1370
+"335",2017,"Female","95 +","Cerebrovascular diseases, ICD10",872
+"336",2017,"Female","95 +","Diseases of the respiratory  system, ICD10",945
+"337",2017,"Female","95 +","Pneumonia, ICD10",376
+"338",2017,"Female","95 +","External causes, ICD10",356
+"339",2017,"Female","95 +","Accidents, ICD10",346
+"340",2017,"Female","95 +","All causes, ICD10",8611
+"341",2016,"Male","Total","Certain infectious and parasitic diseases, ICD10",1445
+"342",2016,"Male","Total","Septicaemia, ICD10",816
+"343",2016,"Male","Total","Neoplasms, ICD10",26158
+"344",2016,"Male","Total","Malignant neoplasms, ICD10",25539
+"345",2016,"Male","Total","Malignant neoplasm of lip, oral cavity and pharynx, ICD10",596
+"346",2016,"Male","Total","Malignant neoplasm of oesophagus, ICD10",988
+"347",2016,"Male","Total","Malignant neoplasm of stomach, ICD10",707
+"348",2016,"Male","Total","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",2451
+"349",2016,"Male","Total","Malignant neoplasm of liver and intrahepatic bile ducts, ICD10",1232
+"350",2016,"Male","Total","Malignant neoplasm of pancreas, ICD10",1500
+"351",2016,"Male","Total","Malignant neoplasm of trachea, bronchus and lung, ICD10",5024
+"352",2016,"Male","Total","Malignant neoplasm of prostate, ICD10",3250
+"353",2016,"Male","Total","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",2562
+"354",2016,"Male","Total","Endocrine, nutritional and metabolic diseases, ICD10",3527
+"355",2016,"Male","Total","Diabetes mellitus, ICD10",2584
+"356",2016,"Male","Total","Mental and behavioural disorders, ICD10",3795
+"357",2016,"Male","Total","Diseases of the nervous system, ICD10",4129
+"358",2016,"Male","Total","Diseases of the circulatory system, ICD10",21843
+"359",2016,"Male","Total","Hypertensive diseases, ICD10",879
+"360",2016,"Male","Total","Ischaemic heart diseases, ICD10",10949
+"361",2016,"Male","Total","Cerebrovascular diseases, ICD10",4244
+"362",2016,"Male","Total","Diseases of arteries, arterioles and capillaries, ICD10",1006
+"363",2016,"Male","Total","Diseases of the respiratory  system, ICD10",7482
+"364",2016,"Male","Total","Pneumonia, ICD10",1240
+"365",2016,"Male","Total","Chronic lower respiratory diseases, ICD10",4169
+"366",2016,"Male","Total","Diseases of the digestive system, ICD10",2910
+"367",2016,"Male","Total","Diseases of the liver, ICD10",1179
+"368",2016,"Male","Total","Diseases of the musculoskeletal system and connective tissue, ICD10",473
+"369",2016,"Male","Total","Diseases of the genitourinary system, ICD10",1569
+"370",2016,"Male","Total","Disorders of kidney and ureter, ICD10",1168
+"371",2016,"Male","Total","Certain conditions originating in the perinatal period, ICD10",316
+"372",2016,"Male","Total","Congenital malformations, deformations and chromosomal abnormalities , ICD10",330
+"373",2016,"Male","Total","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified, ICD10",572
+"374",2016,"Male","Total","External causes, ICD10",6845
+"375",2016,"Male","Total","Accidents, ICD10",4239
+"376",2016,"Male","Total","Transport accidents, ICD10",1099
+"377",2016,"Male","Total","Falls, ICD10",1311
+"378",2016,"Male","Total","Accidental poisoning by and exposure to noxious substances, ICD10",994
+"379",2016,"Male","Total","Intentional self-harm, ICD10",2171
+"380",2016,"Male","Total","All causes, ICD10",81867
+"381",2016,"Male","0","All causes, ICD10",543
+"382",2016,"Male","20 - 24","External causes, ICD10",427
+"383",2016,"Male","20 - 24","All causes, ICD10",531
+"384",2016,"Male","25 - 29","External causes, ICD10",439
+"385",2016,"Male","25 - 29","All causes, ICD10",596
+"386",2016,"Male","30 - 34","External causes, ICD10",485
+"387",2016,"Male","30 - 34","All causes, ICD10",740
+"388",2016,"Male","35 - 39","External causes, ICD10",523
+"389",2016,"Male","35 - 39","All causes, ICD10",895
+"390",2016,"Male","40 - 44","External causes, ICD10",538
+"391",2016,"Male","40 - 44","All causes, ICD10",1291
+"392",2016,"Male","45 - 49","Neoplasms, ICD10",480
+"393",2016,"Male","45 - 49","Malignant neoplasms, ICD10",469
+"394",2016,"Male","45 - 49","Diseases of the circulatory system, ICD10",364
+"395",2016,"Male","45 - 49","External causes, ICD10",486
+"396",2016,"Male","45 - 49","All causes, ICD10",1749
+"397",2016,"Male","50 - 54","Neoplasms, ICD10",903
+"398",2016,"Male","50 - 54","Malignant neoplasms, ICD10",893
+"399",2016,"Male","50 - 54","Diseases of the circulatory system, ICD10",594
+"400",2016,"Male","50 - 54","Ischaemic heart diseases, ICD10",358
+"401",2016,"Male","50 - 54","External causes, ICD10",452
+"402",2016,"Male","50 - 54","All causes, ICD10",2561
+"403",2016,"Male","55 - 59","Neoplasms, ICD10",1542
+"404",2016,"Male","55 - 59","Malignant neoplasms, ICD10",1527
+"405",2016,"Male","55 - 59","Malignant neoplasm of trachea, bronchus and lung, ICD10",322
+"406",2016,"Male","55 - 59","Diseases of the circulatory system, ICD10",807
+"407",2016,"Male","55 - 59","Ischaemic heart diseases, ICD10",496
+"408",2016,"Male","55 - 59","External causes, ICD10",396
+"409",2016,"Male","55 - 59","All causes, ICD10",3660
+"410",2016,"Male","60 - 64","Neoplasms, ICD10",2249
+"411",2016,"Male","60 - 64","Malignant neoplasms, ICD10",2219
+"412",2016,"Male","60 - 64","Malignant neoplasm of trachea, bronchus and lung, ICD10",498
+"413",2016,"Male","60 - 64","Diseases of the circulatory system, ICD10",1077
+"414",2016,"Male","60 - 64","Ischaemic heart diseases, ICD10",684
+"415",2016,"Male","60 - 64","External causes, ICD10",353
+"416",2016,"Male","60 - 64","All causes, ICD10",4872
+"417",2016,"Male","65 - 69","Neoplasms, ICD10",3175
+"418",2016,"Male","65 - 69","Malignant neoplasms, ICD10",3132
+"419",2016,"Male","65 - 69","Malignant neoplasm of trachea, bronchus and lung, ICD10",703
+"420",2016,"Male","65 - 69","Diseases of the circulatory system, ICD10",1537
+"421",2016,"Male","65 - 69","Ischaemic heart diseases, ICD10",875
+"422",2016,"Male","65 - 69","Diseases of the respiratory  system, ICD10",502
+"423",2016,"Male","65 - 69","Chronic lower respiratory diseases, ICD10",323
+"424",2016,"Male","65 - 69","All causes, ICD10",6764
+"425",2016,"Male","70 - 74","Neoplasms, ICD10",3660
+"426",2016,"Male","70 - 74","Malignant neoplasms, ICD10",3604
+"427",2016,"Male","70 - 74","Malignant neoplasm of trachea, bronchus and lung, ICD10",865
+"428",2016,"Male","70 - 74","Malignant neoplasm of prostate, ICD10",390
+"429",2016,"Male","70 - 74","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",377
+"430",2016,"Male","70 - 74","Endocrine, nutritional and metabolic diseases, ICD10",408
+"431",2016,"Male","70 - 74","Diabetes mellitus, ICD10",313
+"432",2016,"Male","70 - 74","Diseases of the nervous system, ICD10",419
+"433",2016,"Male","70 - 74","Diseases of the circulatory system, ICD10",1959
+"434",2016,"Male","70 - 74","Ischaemic heart diseases, ICD10",1032
+"435",2016,"Male","70 - 74","Cerebrovascular diseases, ICD10",392
+"436",2016,"Male","70 - 74","Diseases of the respiratory  system, ICD10",811
+"437",2016,"Male","70 - 74","Chronic lower respiratory diseases, ICD10",551
+"438",2016,"Male","70 - 74","Diseases of the digestive system, ICD10",319
+"439",2016,"Male","70 - 74","All causes, ICD10",8411
+"440",2016,"Male","75 - 79","Neoplasms, ICD10",4083
+"441",2016,"Male","75 - 79","Malignant neoplasms, ICD10",4006
+"442",2016,"Male","75 - 79","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",409
+"443",2016,"Male","75 - 79","Malignant neoplasm of trachea, bronchus and lung, ICD10",859
+"444",2016,"Male","75 - 79","Malignant neoplasm of prostate, ICD10",522
+"445",2016,"Male","75 - 79","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",425
+"446",2016,"Male","75 - 79","Endocrine, nutritional and metabolic diseases, ICD10",457
+"447",2016,"Male","75 - 79","Diabetes mellitus, ICD10",355
+"448",2016,"Male","75 - 79","Mental and behavioural disorders, ICD10",369
+"449",2016,"Male","75 - 79","Diseases of the nervous system, ICD10",616
+"450",2016,"Male","75 - 79","Diseases of the circulatory system, ICD10",2554
+"451",2016,"Male","75 - 79","Ischaemic heart diseases, ICD10",1256
+"452",2016,"Male","75 - 79","Cerebrovascular diseases, ICD10",569
+"453",2016,"Male","75 - 79","Diseases of the respiratory  system, ICD10",1031
+"454",2016,"Male","75 - 79","Chronic lower respiratory diseases, ICD10",632
+"455",2016,"Male","75 - 79","External causes, ICD10",319
+"456",2016,"Male","75 - 79","All causes, ICD10",10252
+"457",2016,"Male","80 - 84","Neoplasms, ICD10",3996
+"458",2016,"Male","80 - 84","Malignant neoplasms, ICD10",3874
+"459",2016,"Male","80 - 84","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",341
+"460",2016,"Male","80 - 84","Malignant neoplasm of trachea, bronchus and lung, ICD10",704
+"461",2016,"Male","80 - 84","Malignant neoplasm of prostate, ICD10",659
+"462",2016,"Male","80 - 84","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",451
+"463",2016,"Male","80 - 84","Endocrine, nutritional and metabolic diseases, ICD10",623
+"464",2016,"Male","80 - 84","Diabetes mellitus, ICD10",479
+"465",2016,"Male","80 - 84","Mental and behavioural disorders, ICD10",723
+"466",2016,"Male","80 - 84","Diseases of the nervous system, ICD10",798
+"467",2016,"Male","80 - 84","Diseases of the circulatory system, ICD10",3488
+"468",2016,"Male","80 - 84","Ischaemic heart diseases, ICD10",1628
+"469",2016,"Male","80 - 84","Cerebrovascular diseases, ICD10",785
+"470",2016,"Male","80 - 84","Diseases of the respiratory  system, ICD10",1325
+"471",2016,"Male","80 - 84","Chronic lower respiratory diseases, ICD10",737
+"472",2016,"Male","80 - 84","Diseases of the digestive system, ICD10",374
+"473",2016,"Male","80 - 84","External causes, ICD10",447
+"474",2016,"Male","80 - 84","Accidents, ICD10",372
+"475",2016,"Male","80 - 84","All causes, ICD10",12513
+"476",2016,"Male","85 - 89","Neoplasms, ICD10",3437
+"477",2016,"Male","85 - 89","Malignant neoplasms, ICD10",3313
+"478",2016,"Male","85 - 89","Malignant neoplasm of trachea, bronchus and lung, ICD10",568
+"479",2016,"Male","85 - 89","Malignant neoplasm of prostate, ICD10",703
+"480",2016,"Male","85 - 89","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",364
+"481",2016,"Male","85 - 89","Endocrine, nutritional and metabolic diseases, ICD10",572
+"482",2016,"Male","85 - 89","Diabetes mellitus, ICD10",444
+"483",2016,"Male","85 - 89","Mental and behavioural disorders, ICD10",1046
+"484",2016,"Male","85 - 89","Diseases of the nervous system, ICD10",856
+"485",2016,"Male","85 - 89","Diseases of the circulatory system, ICD10",4520
+"486",2016,"Male","85 - 89","Ischaemic heart diseases, ICD10",2090
+"487",2016,"Male","85 - 89","Cerebrovascular diseases, ICD10",949
+"488",2016,"Male","85 - 89","Diseases of the respiratory  system, ICD10",1545
+"489",2016,"Male","85 - 89","Chronic lower respiratory diseases, ICD10",846
+"490",2016,"Male","85 - 89","Diseases of the digestive system, ICD10",427
+"491",2016,"Male","85 - 89","Diseases of the genitourinary system, ICD10",371
+"492",2016,"Male","85 - 89","External causes, ICD10",555
+"493",2016,"Male","85 - 89","Accidents, ICD10",484
+"494",2016,"Male","85 - 89","Falls, ICD10",345
+"495",2016,"Male","85 - 89","All causes, ICD10",13878
+"496",2016,"Male","90 - 94","Neoplasms, ICD10",1612
+"497",2016,"Male","90 - 94","Malignant neoplasms, ICD10",1527
+"498",2016,"Male","90 - 94","Malignant neoplasm of prostate, ICD10",407
+"499",2016,"Male","90 - 94","Endocrine, nutritional and metabolic diseases, ICD10",359
+"500",2016,"Male","90 - 94","Mental and behavioural disorders, ICD10",847
+"501",2016,"Male","90 - 94","Diseases of the nervous system, ICD10",444
+"502",2016,"Male","90 - 94","Diseases of the circulatory system, ICD10",3210
+"503",2016,"Male","90 - 94","Ischaemic heart diseases, ICD10",1520
+"504",2016,"Male","90 - 94","Cerebrovascular diseases, ICD10",659
+"505",2016,"Male","90 - 94","Diseases of the respiratory  system, ICD10",1117
+"506",2016,"Male","90 - 94","Chronic lower respiratory diseases, ICD10",505
+"507",2016,"Male","90 - 94","Diseases of the genitourinary system, ICD10",323
+"508",2016,"Male","90 - 94","External causes, ICD10",405
+"509",2016,"Male","90 - 94","Accidents, ICD10",367
+"510",2016,"Male","90 - 94","All causes, ICD10",9000
+"511",2016,"Male","95 +","Neoplasms, ICD10",396
+"512",2016,"Male","95 +","Malignant neoplasms, ICD10",369
+"513",2016,"Male","95 +","Mental and behavioural disorders, ICD10",312
+"514",2016,"Male","95 +","Diseases of the circulatory system, ICD10",1260
+"515",2016,"Male","95 +","Ischaemic heart diseases, ICD10",591
+"516",2016,"Male","95 +","Diseases of the respiratory  system, ICD10",419
+"517",2016,"Male","95 +","All causes, ICD10",3065
+"518",2016,"Female","Total","Certain infectious and parasitic diseases, ICD10",1384
+"519",2016,"Female","Total","Septicaemia, ICD10",873
+"520",2016,"Female","Total","Neoplasms, ICD10",20167
+"521",2016,"Female","Total","Malignant neoplasms, ICD10",19622
+"522",2016,"Female","Total","Malignant neoplasm of oesophagus, ICD10",350
+"523",2016,"Female","Total","Malignant neoplasm of stomach, ICD10",381
+"524",2016,"Female","Total","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",1966
+"525",2016,"Female","Total","Malignant neoplasm of liver and intrahepatic bile ducts, ICD10",634
+"526",2016,"Female","Total","Malignant neoplasm of pancreas, ICD10",1411
+"527",2016,"Female","Total","Malignant neoplasm of trachea, bronchus and lung, ICD10",3387
+"528",2016,"Female","Total","Malignant neoplasm of female breast, ICD10",2978
+"529",2016,"Female","Total","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",1811
+"530",2016,"Female","Total","Endocrine, nutritional and metabolic diseases, ICD10",3240
+"531",2016,"Female","Total","Diabetes mellitus, ICD10",2197
+"532",2016,"Female","Total","Mental and behavioural disorders, ICD10",6140
+"533",2016,"Female","Total","Diseases of the nervous system, ICD10",4676
+"534",2016,"Female","Total","Diseases of the circulatory system, ICD10",22314
+"535",2016,"Female","Total","Hypertensive diseases, ICD10",1357
+"536",2016,"Female","Total","Ischaemic heart diseases, ICD10",8236
+"537",2016,"Female","Total","Cerebrovascular diseases, ICD10",6225
+"538",2016,"Female","Total","Diseases of arteries, arterioles and capillaries, ICD10",883
+"539",2016,"Female","Total","Diseases of the respiratory  system, ICD10",7340
+"540",2016,"Female","Total","Pneumonia, ICD10",1641
+"541",2016,"Female","Total","Chronic lower respiratory diseases, ICD10",3896
+"542",2016,"Female","Total","Diseases of the digestive system, ICD10",2863
+"543",2016,"Female","Total","Diseases of the liver, ICD10",610
+"544",2016,"Female","Total","Diseases of the musculoskeletal system and connective tissue, ICD10",903
+"545",2016,"Female","Total","Diseases of the genitourinary system, ICD10",1894
+"546",2016,"Female","Total","Disorders of kidney and ureter, ICD10",1318
+"547",2016,"Female","Total","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified, ICD10",736
+"548",2016,"Female","Total","All other diseases, ICD10",312
+"549",2016,"Female","Total","External causes, ICD10",3901
+"550",2016,"Female","Total","Accidents, ICD10",2912
+"551",2016,"Female","Total","Transport accidents, ICD10",368
+"552",2016,"Female","Total","Falls, ICD10",1408
+"553",2016,"Female","Total","Accidental poisoning by and exposure to noxious substances, ICD10",432
+"554",2016,"Female","Total","Intentional self-harm, ICD10",736
+"555",2016,"Female","Total","All causes, ICD10",76637
+"556",2016,"Female","0","All causes, ICD10",427
+"557",2016,"Female","30 - 34","All causes, ICD10",395
+"558",2016,"Female","35 - 39","All causes, ICD10",477
+"559",2016,"Female","40 - 44","All causes, ICD10",779
+"560",2016,"Female","45 - 49","Neoplasms, ICD10",523
+"561",2016,"Female","45 - 49","Malignant neoplasms, ICD10",520
+"562",2016,"Female","45 - 49","All causes, ICD10",1109
+"563",2016,"Female","50 - 54","Neoplasms, ICD10",825
+"564",2016,"Female","50 - 54","Malignant neoplasms, ICD10",814
+"565",2016,"Female","50 - 54","All causes, ICD10",1613
+"566",2016,"Female","55 - 59","Neoplasms, ICD10",1272
+"567",2016,"Female","55 - 59","Malignant neoplasms, ICD10",1254
+"568",2016,"Female","55 - 59","All causes, ICD10",2288
+"569",2016,"Female","60 - 64","Neoplasms, ICD10",1628
+"570",2016,"Female","60 - 64","Malignant neoplasms, ICD10",1607
+"571",2016,"Female","60 - 64","Malignant neoplasm of trachea, bronchus and lung, ICD10",349
+"572",2016,"Female","60 - 64","Diseases of the circulatory system, ICD10",393
+"573",2016,"Female","60 - 64","All causes, ICD10",2967
+"574",2016,"Female","65 - 69","Neoplasms, ICD10",2185
+"575",2016,"Female","65 - 69","Malignant neoplasms, ICD10",2160
+"576",2016,"Female","65 - 69","Malignant neoplasm of trachea, bronchus and lung, ICD10",457
+"577",2016,"Female","65 - 69","Malignant neoplasm of female breast, ICD10",359
+"578",2016,"Female","65 - 69","Diseases of the circulatory system, ICD10",659
+"579",2016,"Female","65 - 69","Diseases of the respiratory  system, ICD10",413
+"580",2016,"Female","65 - 69","All causes, ICD10",4200
+"581",2016,"Female","70 - 74","Neoplasms, ICD10",2459
+"582",2016,"Female","70 - 74","Malignant neoplasms, ICD10",2423
+"583",2016,"Female","70 - 74","Malignant neoplasm of trachea, bronchus and lung, ICD10",578
+"584",2016,"Female","70 - 74","Malignant neoplasm of female breast, ICD10",330
+"585",2016,"Female","70 - 74","Diseases of the circulatory system, ICD10",963
+"586",2016,"Female","70 - 74","Ischaemic heart diseases, ICD10",385
+"587",2016,"Female","70 - 74","Diseases of the respiratory  system, ICD10",594
+"588",2016,"Female","70 - 74","Chronic lower respiratory diseases, ICD10",425
+"589",2016,"Female","70 - 74","All causes, ICD10",5342
+"590",2016,"Female","75 - 79","Neoplasms, ICD10",2750
+"591",2016,"Female","75 - 79","Malignant neoplasms, ICD10",2698
+"592",2016,"Female","75 - 79","Malignant neoplasm of trachea, bronchus and lung, ICD10",549
+"593",2016,"Female","75 - 79","Mental and behavioural disorders, ICD10",376
+"594",2016,"Female","75 - 79","Diseases of the nervous system, ICD10",477
+"595",2016,"Female","75 - 79","Diseases of the circulatory system, ICD10",1720
+"596",2016,"Female","75 - 79","Ischaemic heart diseases, ICD10",616
+"597",2016,"Female","75 - 79","Cerebrovascular diseases, ICD10",510
+"598",2016,"Female","75 - 79","Diseases of the respiratory  system, ICD10",806
+"599",2016,"Female","75 - 79","Chronic lower respiratory diseases, ICD10",561
+"600",2016,"Female","75 - 79","All causes, ICD10",7370
+"601",2016,"Female","80 - 84","Neoplasms, ICD10",2827
+"602",2016,"Female","80 - 84","Malignant neoplasms, ICD10",2734
+"603",2016,"Female","80 - 84","Malignant neoplasm of trachea, bronchus and lung, ICD10",464
+"604",2016,"Female","80 - 84","Malignant neoplasm of female breast, ICD10",316
+"605",2016,"Female","80 - 84","Endocrine, nutritional and metabolic diseases, ICD10",514
+"606",2016,"Female","80 - 84","Diabetes mellitus, ICD10",387
+"607",2016,"Female","80 - 84","Mental and behavioural disorders, ICD10",829
+"608",2016,"Female","80 - 84","Diseases of the nervous system, ICD10",767
+"609",2016,"Female","80 - 84","Diseases of the circulatory system, ICD10",3077
+"610",2016,"Female","80 - 84","Ischaemic heart diseases, ICD10",1084
+"611",2016,"Female","80 - 84","Cerebrovascular diseases, ICD10",951
+"612",2016,"Female","80 - 84","Diseases of the respiratory  system, ICD10",1138
+"613",2016,"Female","80 - 84","Chronic lower respiratory diseases, ICD10",672
+"614",2016,"Female","80 - 84","Diseases of the digestive system, ICD10",381
+"615",2016,"Female","80 - 84","External causes, ICD10",368
+"616",2016,"Female","80 - 84","Accidents, ICD10",331
+"617",2016,"Female","80 - 84","All causes, ICD10",10653
+"618",2016,"Female","85 - 89","Neoplasms, ICD10",2622
+"619",2016,"Female","85 - 89","Malignant neoplasms, ICD10",2503
+"620",2016,"Female","85 - 89","Endocrine, nutritional and metabolic diseases, ICD10",702
+"621",2016,"Female","85 - 89","Diabetes mellitus, ICD10",495
+"622",2016,"Female","85 - 89","Mental and behavioural disorders, ICD10",1620
+"623",2016,"Female","85 - 89","Diseases of the nervous system, ICD10",1049
+"624",2016,"Female","85 - 89","Diseases of the circulatory system, ICD10",5379
+"625",2016,"Female","85 - 89","Hypertensive diseases, ICD10",312
+"626",2016,"Female","85 - 89","Ischaemic heart diseases, ICD10",1952
+"627",2016,"Female","85 - 89","Cerebrovascular diseases, ICD10",1549
+"628",2016,"Female","85 - 89","Diseases of the respiratory  system, ICD10",1530
+"629",2016,"Female","85 - 89","Pneumonia, ICD10",370
+"630",2016,"Female","85 - 89","Chronic lower respiratory diseases, ICD10",756
+"631",2016,"Female","85 - 89","Diseases of the digestive system, ICD10",585
+"632",2016,"Female","85 - 89","Diseases of the genitourinary system, ICD10",463
+"633",2016,"Female","85 - 89","Disorders of kidney and ureter, ICD10",325
+"634",2016,"Female","85 - 89","External causes, ICD10",601
+"635",2016,"Female","85 - 89","Accidents, ICD10",562
+"636",2016,"Female","85 - 89","Falls, ICD10",380
+"637",2016,"Female","85 - 89","All causes, ICD10",15288
+"638",2016,"Female","90 - 94","Neoplasms, ICD10",1746
+"639",2016,"Female","90 - 94","Malignant neoplasms, ICD10",1643
+"640",2016,"Female","90 - 94","Endocrine, nutritional and metabolic diseases, ICD10",612
+"641",2016,"Female","90 - 94","Diabetes mellitus, ICD10",396
+"642",2016,"Female","90 - 94","Mental and behavioural disorders, ICD10",1893
+"643",2016,"Female","90 - 94","Diseases of the nervous system, ICD10",986
+"644",2016,"Female","90 - 94","Diseases of the circulatory system, ICD10",5863
+"645",2016,"Female","90 - 94","Hypertensive diseases, ICD10",419
+"646",2016,"Female","90 - 94","Ischaemic heart diseases, ICD10",2186
+"647",2016,"Female","90 - 94","Cerebrovascular diseases, ICD10",1575
+"648",2016,"Female","90 - 94","Diseases of the respiratory  system, ICD10",1481
+"649",2016,"Female","90 - 94","Pneumonia, ICD10",492
+"650",2016,"Female","90 - 94","Chronic lower respiratory diseases, ICD10",586
+"651",2016,"Female","90 - 94","Diseases of the digestive system, ICD10",553
+"652",2016,"Female","90 - 94","Diseases of the genitourinary system, ICD10",501
+"653",2016,"Female","90 - 94","Disorders of kidney and ureter, ICD10",337
+"654",2016,"Female","90 - 94","External causes, ICD10",616
+"655",2016,"Female","90 - 94","Accidents, ICD10",588
+"656",2016,"Female","90 - 94","Falls, ICD10",386
+"657",2016,"Female","90 - 94","All causes, ICD10",14974
+"658",2016,"Female","95 +","Neoplasms, ICD10",620
+"659",2016,"Female","95 +","Malignant neoplasms, ICD10",574
+"660",2016,"Female","95 +","Mental and behavioural disorders, ICD10",1143
+"661",2016,"Female","95 +","Diseases of the nervous system, ICD10",449
+"662",2016,"Female","95 +","Diseases of the circulatory system, ICD10",3358
+"663",2016,"Female","95 +","Ischaemic heart diseases, ICD10",1289
+"664",2016,"Female","95 +","Cerebrovascular diseases, ICD10",864
+"665",2016,"Female","95 +","Diseases of the respiratory  system, ICD10",818
+"666",2016,"Female","95 +","Pneumonia, ICD10",343
+"667",2016,"Female","95 +","All causes, ICD10",7983
+"668",2015,"Male","Total","Certain infectious and parasitic diseases, ICD10",1452
+"669",2015,"Male","Total","Septicaemia, ICD10",855
+"670",2015,"Male","Total","Neoplasms, ICD10",26123
+"671",2015,"Male","Total","Malignant neoplasms, ICD10",25445
+"672",2015,"Male","Total","Malignant neoplasm of lip, oral cavity and pharynx, ICD10",641
+"673",2015,"Male","Total","Malignant neoplasm of oesophagus, ICD10",949
+"674",2015,"Male","Total","Malignant neoplasm of stomach, ICD10",711
+"675",2015,"Male","Total","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",2394
+"676",2015,"Male","Total","Malignant neoplasm of liver and intrahepatic bile ducts, ICD10",1222
+"677",2015,"Male","Total","Malignant neoplasm of pancreas, ICD10",1433
+"678",2015,"Male","Total","Malignant neoplasm of trachea, bronchus and lung, ICD10",4989
+"679",2015,"Male","Total","Malignant neoplasm of prostate, ICD10",3195
+"680",2015,"Male","Total","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",2531
+"681",2015,"Male","Total","Endocrine, nutritional and metabolic diseases, ICD10",3379
+"682",2015,"Male","Total","Diabetes mellitus, ICD10",2463
+"683",2015,"Male","Total","Mental and behavioural disorders, ICD10",3598
+"684",2015,"Male","Total","Diseases of the nervous system, ICD10",3901
+"685",2015,"Male","Total","Diseases of the circulatory system, ICD10",21937
+"686",2015,"Male","Total","Hypertensive diseases, ICD10",826
+"687",2015,"Male","Total","Ischaemic heart diseases, ICD10",11075
+"688",2015,"Male","Total","Cerebrovascular diseases, ICD10",4363
+"689",2015,"Male","Total","Diseases of arteries, arterioles and capillaries, ICD10",998
+"690",2015,"Male","Total","Diseases of the respiratory  system, ICD10",7214
+"691",2015,"Male","Total","Pneumonia, ICD10",1186
+"692",2015,"Male","Total","Chronic lower respiratory diseases, ICD10",4103
+"693",2015,"Male","Total","Diseases of the digestive system, ICD10",2831
+"694",2015,"Male","Total","Diseases of the liver, ICD10",1235
+"695",2015,"Male","Total","Diseases of the musculoskeletal system and connective tissue, ICD10",452
+"696",2015,"Male","Total","Diseases of the genitourinary system, ICD10",1624
+"697",2015,"Male","Total","Disorders of kidney and ureter, ICD10",1234
+"698",2015,"Male","Total","Congenital malformations, deformations and chromosomal abnormalities , ICD10",315
+"699",2015,"Male","Total","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified, ICD10",1041
+"700",2015,"Male","Total","External causes, ICD10",6729
+"701",2015,"Male","Total","Accidents, ICD10",3878
+"702",2015,"Male","Total","Transport accidents, ICD10",1015
+"703",2015,"Male","Total","Falls, ICD10",1154
+"704",2015,"Male","Total","Accidental poisoning by and exposure to noxious substances, ICD10",823
+"705",2015,"Male","Total","Intentional self-harm, ICD10",2292
+"706",2015,"Male","Total","All other external causes, ICD10",380
+"707",2015,"Male","Total","All causes, ICD10",81330
+"708",2015,"Male","0","All causes, ICD10",542
+"709",2015,"Male","20 - 24","External causes, ICD10",377
+"710",2015,"Male","20 - 24","All causes, ICD10",506
+"711",2015,"Male","25 - 29","External causes, ICD10",448
+"712",2015,"Male","25 - 29","All causes, ICD10",612
+"713",2015,"Male","30 - 34","External causes, ICD10",501
+"714",2015,"Male","30 - 34","All causes, ICD10",774
+"715",2015,"Male","35 - 39","External causes, ICD10",487
+"716",2015,"Male","35 - 39","All causes, ICD10",907
+"717",2015,"Male","40 - 44","External causes, ICD10",559
+"718",2015,"Male","40 - 44","All causes, ICD10",1366
+"719",2015,"Male","45 - 49","Neoplasms, ICD10",436
+"720",2015,"Male","45 - 49","Malignant neoplasms, ICD10",431
+"721",2015,"Male","45 - 49","Diseases of the circulatory system, ICD10",367
+"722",2015,"Male","45 - 49","External causes, ICD10",546
+"723",2015,"Male","45 - 49","All causes, ICD10",1812
+"724",2015,"Male","50 - 54","Neoplasms, ICD10",920
+"725",2015,"Male","50 - 54","Malignant neoplasms, ICD10",906
+"726",2015,"Male","50 - 54","Diseases of the circulatory system, ICD10",606
+"727",2015,"Male","50 - 54","Ischaemic heart diseases, ICD10",405
+"728",2015,"Male","50 - 54","External causes, ICD10",486
+"729",2015,"Male","50 - 54","All causes, ICD10",2691
+"730",2015,"Male","55 - 59","Neoplasms, ICD10",1594
+"731",2015,"Male","55 - 59","Malignant neoplasms, ICD10",1576
+"732",2015,"Male","55 - 59","Malignant neoplasm of trachea, bronchus and lung, ICD10",327
+"733",2015,"Male","55 - 59","Diseases of the circulatory system, ICD10",797
+"734",2015,"Male","55 - 59","Ischaemic heart diseases, ICD10",498
+"735",2015,"Male","55 - 59","External causes, ICD10",361
+"736",2015,"Male","55 - 59","All causes, ICD10",3712
+"737",2015,"Male","60 - 64","Neoplasms, ICD10",2280
+"738",2015,"Male","60 - 64","Malignant neoplasms, ICD10",2255
+"739",2015,"Male","60 - 64","Malignant neoplasm of trachea, bronchus and lung, ICD10",485
+"740",2015,"Male","60 - 64","Diseases of the circulatory system, ICD10",1086
+"741",2015,"Male","60 - 64","Ischaemic heart diseases, ICD10",656
+"742",2015,"Male","60 - 64","All causes, ICD10",4925
+"743",2015,"Male","65 - 69","Neoplasms, ICD10",3225
+"744",2015,"Male","65 - 69","Malignant neoplasms, ICD10",3171
+"745",2015,"Male","65 - 69","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",323
+"746",2015,"Male","65 - 69","Malignant neoplasm of trachea, bronchus and lung, ICD10",698
+"747",2015,"Male","65 - 69","Diseases of the circulatory system, ICD10",1520
+"748",2015,"Male","65 - 69","Ischaemic heart diseases, ICD10",880
+"749",2015,"Male","65 - 69","Diseases of the respiratory  system, ICD10",547
+"750",2015,"Male","65 - 69","Chronic lower respiratory diseases, ICD10",378
+"751",2015,"Male","65 - 69","All causes, ICD10",6834
+"752",2015,"Male","70 - 74","Neoplasms, ICD10",3592
+"753",2015,"Male","70 - 74","Malignant neoplasms, ICD10",3524
+"754",2015,"Male","70 - 74","Malignant neoplasm of trachea, bronchus and lung, ICD10",883
+"755",2015,"Male","70 - 74","Malignant neoplasm of prostate, ICD10",347
+"756",2015,"Male","70 - 74","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",346
+"757",2015,"Male","70 - 74","Endocrine, nutritional and metabolic diseases, ICD10",380
+"758",2015,"Male","70 - 74","Diseases of the nervous system, ICD10",378
+"759",2015,"Male","70 - 74","Diseases of the circulatory system, ICD10",1944
+"760",2015,"Male","70 - 74","Ischaemic heart diseases, ICD10",1056
+"761",2015,"Male","70 - 74","Cerebrovascular diseases, ICD10",350
+"762",2015,"Male","70 - 74","Diseases of the respiratory  system, ICD10",724
+"763",2015,"Male","70 - 74","Chronic lower respiratory diseases, ICD10",480
+"764",2015,"Male","70 - 74","All causes, ICD10",8158
+"765",2015,"Male","75 - 79","Neoplasms, ICD10",4019
+"766",2015,"Male","75 - 79","Malignant neoplasms, ICD10",3909
+"767",2015,"Male","75 - 79","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",372
+"768",2015,"Male","75 - 79","Malignant neoplasm of trachea, bronchus and lung, ICD10",819
+"769",2015,"Male","75 - 79","Malignant neoplasm of prostate, ICD10",482
+"770",2015,"Male","75 - 79","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",444
+"771",2015,"Male","75 - 79","Endocrine, nutritional and metabolic diseases, ICD10",478
+"772",2015,"Male","75 - 79","Diabetes mellitus, ICD10",364
+"773",2015,"Male","75 - 79","Mental and behavioural disorders, ICD10",345
+"774",2015,"Male","75 - 79","Diseases of the nervous system, ICD10",537
+"775",2015,"Male","75 - 79","Diseases of the circulatory system, ICD10",2530
+"776",2015,"Male","75 - 79","Ischaemic heart diseases, ICD10",1248
+"777",2015,"Male","75 - 79","Cerebrovascular diseases, ICD10",536
+"778",2015,"Male","75 - 79","Diseases of the respiratory  system, ICD10",1057
+"779",2015,"Male","75 - 79","Chronic lower respiratory diseases, ICD10",658
+"780",2015,"Male","75 - 79","All causes, ICD10",10135
+"781",2015,"Male","80 - 84","Neoplasms, ICD10",3934
+"782",2015,"Male","80 - 84","Malignant neoplasms, ICD10",3790
+"783",2015,"Male","80 - 84","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",345
+"784",2015,"Male","80 - 84","Malignant neoplasm of trachea, bronchus and lung, ICD10",749
+"785",2015,"Male","80 - 84","Malignant neoplasm of prostate, ICD10",646
+"786",2015,"Male","80 - 84","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",399
+"787",2015,"Male","80 - 84","Endocrine, nutritional and metabolic diseases, ICD10",559
+"788",2015,"Male","80 - 84","Diabetes mellitus, ICD10",431
+"789",2015,"Male","80 - 84","Mental and behavioural disorders, ICD10",683
+"790",2015,"Male","80 - 84","Diseases of the nervous system, ICD10",754
+"791",2015,"Male","80 - 84","Diseases of the circulatory system, ICD10",3612
+"792",2015,"Male","80 - 84","Ischaemic heart diseases, ICD10",1703
+"793",2015,"Male","80 - 84","Cerebrovascular diseases, ICD10",825
+"794",2015,"Male","80 - 84","Diseases of the respiratory  system, ICD10",1285
+"795",2015,"Male","80 - 84","Chronic lower respiratory diseases, ICD10",776
+"796",2015,"Male","80 - 84","Diseases of the digestive system, ICD10",375
+"797",2015,"Male","80 - 84","Diseases of the genitourinary system, ICD10",319
+"798",2015,"Male","80 - 84","External causes, ICD10",438
+"799",2015,"Male","80 - 84","Accidents, ICD10",342
+"800",2015,"Male","80 - 84","All causes, ICD10",12399
+"801",2015,"Male","85 - 89","Neoplasms, ICD10",3448
+"802",2015,"Male","85 - 89","Malignant neoplasms, ICD10",3314
+"803",2015,"Male","85 - 89","Malignant neoplasm of trachea, bronchus and lung, ICD10",501
+"804",2015,"Male","85 - 89","Malignant neoplasm of prostate, ICD10",725
+"805",2015,"Male","85 - 89","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",343
+"806",2015,"Male","85 - 89","Endocrine, nutritional and metabolic diseases, ICD10",574
+"807",2015,"Male","85 - 89","Diabetes mellitus, ICD10",431
+"808",2015,"Male","85 - 89","Mental and behavioural disorders, ICD10",1069
+"809",2015,"Male","85 - 89","Diseases of the nervous system, ICD10",857
+"810",2015,"Male","85 - 89","Diseases of the circulatory system, ICD10",4551
+"811",2015,"Male","85 - 89","Ischaemic heart diseases, ICD10",2116
+"812",2015,"Male","85 - 89","Cerebrovascular diseases, ICD10",1001
+"813",2015,"Male","85 - 89","Diseases of the respiratory  system, ICD10",1515
+"814",2015,"Male","85 - 89","Chronic lower respiratory diseases, ICD10",790
+"815",2015,"Male","85 - 89","Diseases of the digestive system, ICD10",402
+"816",2015,"Male","85 - 89","Diseases of the genitourinary system, ICD10",419
+"817",2015,"Male","85 - 89","Disorders of kidney and ureter, ICD10",315
+"818",2015,"Male","85 - 89","External causes, ICD10",544
+"819",2015,"Male","85 - 89","Accidents, ICD10",466
+"820",2015,"Male","85 - 89","All causes, ICD10",13883
+"821",2015,"Male","90 - 94","Neoplasms, ICD10",1645
+"822",2015,"Male","90 - 94","Malignant neoplasms, ICD10",1579
+"823",2015,"Male","90 - 94","Malignant neoplasm of prostate, ICD10",429
+"824",2015,"Male","90 - 94","Endocrine, nutritional and metabolic diseases, ICD10",333
+"825",2015,"Male","90 - 94","Mental and behavioural disorders, ICD10",736
+"826",2015,"Male","90 - 94","Diseases of the nervous system, ICD10",439
+"827",2015,"Male","90 - 94","Diseases of the circulatory system, ICD10",3262
+"828",2015,"Male","90 - 94","Ischaemic heart diseases, ICD10",1529
+"829",2015,"Male","90 - 94","Cerebrovascular diseases, ICD10",743
+"830",2015,"Male","90 - 94","Diseases of the respiratory  system, ICD10",1018
+"831",2015,"Male","90 - 94","Chronic lower respiratory diseases, ICD10",480
+"832",2015,"Male","90 - 94","External causes, ICD10",340
+"833",2015,"Male","90 - 94","All causes, ICD10",8670
+"834",2015,"Male","95 +","Neoplasms, ICD10",362
+"835",2015,"Male","95 +","Malignant neoplasms, ICD10",346
+"836",2015,"Male","95 +","Diseases of the circulatory system, ICD10",1168
+"837",2015,"Male","95 +","Ischaemic heart diseases, ICD10",539
+"838",2015,"Male","95 +","Diseases of the respiratory  system, ICD10",359
+"839",2015,"Male","95 +","All causes, ICD10",2817
+"840",2015,"Female","Total","Certain infectious and parasitic diseases, ICD10",1391
+"841",2015,"Female","Total","Septicaemia, ICD10",859
+"842",2015,"Female","Total","Neoplasms, ICD10",20428
+"843",2015,"Female","Total","Malignant neoplasms, ICD10",19845
+"844",2015,"Female","Total","Malignant neoplasm of oesophagus, ICD10",380
+"845",2015,"Female","Total","Malignant neoplasm of stomach, ICD10",439
+"846",2015,"Female","Total","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",2039
+"847",2015,"Female","Total","Malignant neoplasm of liver and intrahepatic bile ducts, ICD10",598
+"848",2015,"Female","Total","Malignant neoplasm of pancreas, ICD10",1327
+"849",2015,"Female","Total","Malignant neoplasm of trachea, bronchus and lung, ICD10",3477
+"850",2015,"Female","Total","Malignant neoplasm of female breast, ICD10",2939
+"851",2015,"Female","Total","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",1881
+"852",2015,"Female","Total","Endocrine, nutritional and metabolic diseases, ICD10",3259
+"853",2015,"Female","Total","Diabetes mellitus, ICD10",2199
+"854",2015,"Female","Total","Mental and behavioural disorders, ICD10",5997
+"855",2015,"Female","Total","Diseases of the nervous system, ICD10",4559
+"856",2015,"Female","Total","Diseases of the circulatory system, ICD10",23455
+"857",2015,"Female","Total","Hypertensive diseases, ICD10",1459
+"858",2015,"Female","Total","Ischaemic heart diseases, ICD10",8702
+"859",2015,"Female","Total","Cerebrovascular diseases, ICD10",6506
+"860",2015,"Female","Total","Diseases of arteries, arterioles and capillaries, ICD10",895
+"861",2015,"Female","Total","Diseases of the respiratory  system, ICD10",7100
+"862",2015,"Female","Total","Pneumonia, ICD10",1567
+"863",2015,"Female","Total","Chronic lower respiratory diseases, ICD10",3888
+"864",2015,"Female","Total","Diseases of the digestive system, ICD10",2836
+"865",2015,"Female","Total","Diseases of the liver, ICD10",622
+"866",2015,"Female","Total","Diseases of the musculoskeletal system and connective tissue, ICD10",850
+"867",2015,"Female","Total","Diseases of the genitourinary system, ICD10",1911
+"868",2015,"Female","Total","Disorders of kidney and ureter, ICD10",1338
+"869",2015,"Female","Total","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified, ICD10",945
+"870",2015,"Female","Total","All other diseases, ICD10",336
+"871",2015,"Female","Total","External causes, ICD10",3844
+"872",2015,"Female","Total","Accidents, ICD10",2784
+"873",2015,"Female","Total","Transport accidents, ICD10",368
+"874",2015,"Female","Total","Falls, ICD10",1320
+"875",2015,"Female","Total","Accidental poisoning by and exposure to noxious substances, ICD10",369
+"876",2015,"Female","Total","Intentional self-harm, ICD10",735
+"877",2015,"Female","Total","All causes, ICD10",77722
+"878",2015,"Female","0","All causes, ICD10",449
+"879",2015,"Female","30 - 34","All causes, ICD10",332
+"880",2015,"Female","35 - 39","All causes, ICD10",516
+"881",2015,"Female","40 - 44","Neoplasms, ICD10",320
+"882",2015,"Female","40 - 44","Malignant neoplasms, ICD10",317
+"883",2015,"Female","40 - 44","All causes, ICD10",772
+"884",2015,"Female","45 - 49","Neoplasms, ICD10",540
+"885",2015,"Female","45 - 49","Malignant neoplasms, ICD10",535
+"886",2015,"Female","45 - 49","All causes, ICD10",1121
+"887",2015,"Female","50 - 54","Neoplasms, ICD10",902
+"888",2015,"Female","50 - 54","Malignant neoplasms, ICD10",896
+"889",2015,"Female","50 - 54","All causes, ICD10",1690
+"890",2015,"Female","55 - 59","Neoplasms, ICD10",1237
+"891",2015,"Female","55 - 59","Malignant neoplasms, ICD10",1229
+"892",2015,"Female","55 - 59","All causes, ICD10",2266
+"893",2015,"Female","60 - 64","Neoplasms, ICD10",1652
+"894",2015,"Female","60 - 64","Malignant neoplasms, ICD10",1639
+"895",2015,"Female","60 - 64","Malignant neoplasm of trachea, bronchus and lung, ICD10",385
+"896",2015,"Female","60 - 64","Diseases of the circulatory system, ICD10",447
+"897",2015,"Female","60 - 64","All causes, ICD10",2998
+"898",2015,"Female","65 - 69","Neoplasms, ICD10",2228
+"899",2015,"Female","65 - 69","Malignant neoplasms, ICD10",2198
+"900",2015,"Female","65 - 69","Malignant neoplasm of trachea, bronchus and lung, ICD10",491
+"901",2015,"Female","65 - 69","Malignant neoplasm of female breast, ICD10",332
+"902",2015,"Female","65 - 69","Diseases of the circulatory system, ICD10",658
+"903",2015,"Female","65 - 69","Diseases of the respiratory  system, ICD10",398
+"904",2015,"Female","65 - 69","All causes, ICD10",4196
+"905",2015,"Female","70 - 74","Neoplasms, ICD10",2430
+"906",2015,"Female","70 - 74","Malignant neoplasms, ICD10",2397
+"907",2015,"Female","70 - 74","Malignant neoplasm of trachea, bronchus and lung, ICD10",541
+"908",2015,"Female","70 - 74","Diseases of the circulatory system, ICD10",1038
+"909",2015,"Female","70 - 74","Ischaemic heart diseases, ICD10",394
+"910",2015,"Female","70 - 74","Diseases of the respiratory  system, ICD10",590
+"911",2015,"Female","70 - 74","Chronic lower respiratory diseases, ICD10",452
+"912",2015,"Female","70 - 74","All causes, ICD10",5324
+"913",2015,"Female","75 - 79","Neoplasms, ICD10",2768
+"914",2015,"Female","75 - 79","Malignant neoplasms, ICD10",2700
+"915",2015,"Female","75 - 79","Malignant neoplasm of trachea, bronchus and lung, ICD10",533
+"916",2015,"Female","75 - 79","Malignant neoplasm of female breast, ICD10",332
+"917",2015,"Female","75 - 79","Endocrine, nutritional and metabolic diseases, ICD10",356
+"918",2015,"Female","75 - 79","Mental and behavioural disorders, ICD10",327
+"919",2015,"Female","75 - 79","Diseases of the nervous system, ICD10",497
+"920",2015,"Female","75 - 79","Diseases of the circulatory system, ICD10",1750
+"921",2015,"Female","75 - 79","Ischaemic heart diseases, ICD10",629
+"922",2015,"Female","75 - 79","Cerebrovascular diseases, ICD10",518
+"923",2015,"Female","75 - 79","Diseases of the respiratory  system, ICD10",791
+"924",2015,"Female","75 - 79","Chronic lower respiratory diseases, ICD10",549
+"925",2015,"Female","75 - 79","All causes, ICD10",7479
+"926",2015,"Female","80 - 84","Neoplasms, ICD10",2883
+"927",2015,"Female","80 - 84","Malignant neoplasms, ICD10",2769
+"928",2015,"Female","80 - 84","Malignant neoplasm of trachea, bronchus and lung, ICD10",448
+"929",2015,"Female","80 - 84","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",323
+"930",2015,"Female","80 - 84","Endocrine, nutritional and metabolic diseases, ICD10",557
+"931",2015,"Female","80 - 84","Diabetes mellitus, ICD10",414
+"932",2015,"Female","80 - 84","Mental and behavioural disorders, ICD10",834
+"933",2015,"Female","80 - 84","Diseases of the nervous system, ICD10",758
+"934",2015,"Female","80 - 84","Diseases of the circulatory system, ICD10",3278
+"935",2015,"Female","80 - 84","Ischaemic heart diseases, ICD10",1185
+"936",2015,"Female","80 - 84","Cerebrovascular diseases, ICD10",963
+"937",2015,"Female","80 - 84","Diseases of the respiratory  system, ICD10",1072
+"938",2015,"Female","80 - 84","Chronic lower respiratory diseases, ICD10",649
+"939",2015,"Female","80 - 84","Diseases of the digestive system, ICD10",386
+"940",2015,"Female","80 - 84","External causes, ICD10",393
+"941",2015,"Female","80 - 84","Accidents, ICD10",349
+"942",2015,"Female","80 - 84","All causes, ICD10",10960
+"943",2015,"Female","85 - 89","Neoplasms, ICD10",2797
+"944",2015,"Female","85 - 89","Malignant neoplasms, ICD10",2659
+"945",2015,"Female","85 - 89","Malignant neoplasm of colon, rectosigmoid junction, rectum, anus and anal canal, ICD10",312
+"946",2015,"Female","85 - 89","Malignant neoplasm of trachea, bronchus and lung, ICD10",374
+"947",2015,"Female","85 - 89","Malignant neoplasm of lymphoid, haematopoietic and related tissue, ICD10",335
+"948",2015,"Female","85 - 89","Endocrine, nutritional and metabolic diseases, ICD10",710
+"949",2015,"Female","85 - 89","Diabetes mellitus, ICD10",499
+"950",2015,"Female","85 - 89","Mental and behavioural disorders, ICD10",1625
+"951",2015,"Female","85 - 89","Diseases of the nervous system, ICD10",1073
+"952",2015,"Female","85 - 89","Diseases of the circulatory system, ICD10",5792
+"953",2015,"Female","85 - 89","Hypertensive diseases, ICD10",328
+"954",2015,"Female","85 - 89","Ischaemic heart diseases, ICD10",2143
+"955",2015,"Female","85 - 89","Cerebrovascular diseases, ICD10",1691
+"956",2015,"Female","85 - 89","Diseases of the respiratory  system, ICD10",1570
+"957",2015,"Female","85 - 89","Pneumonia, ICD10",370
+"958",2015,"Female","85 - 89","Chronic lower respiratory diseases, ICD10",796
+"959",2015,"Female","85 - 89","Diseases of the digestive system, ICD10",586
+"960",2015,"Female","85 - 89","Diseases of the genitourinary system, ICD10",461
+"961",2015,"Female","85 - 89","Disorders of kidney and ureter, ICD10",316
+"962",2015,"Female","85 - 89","External causes, ICD10",563
+"963",2015,"Female","85 - 89","Accidents, ICD10",527
+"964",2015,"Female","85 - 89","Falls, ICD10",327
+"965",2015,"Female","85 - 89","All causes, ICD10",15890
+"966",2015,"Female","90 - 94","Neoplasms, ICD10",1692
+"967",2015,"Female","90 - 94","Malignant neoplasms, ICD10",1583
+"968",2015,"Female","90 - 94","Endocrine, nutritional and metabolic diseases, ICD10",610
+"969",2015,"Female","90 - 94","Diabetes mellitus, ICD10",381
+"970",2015,"Female","90 - 94","Mental and behavioural disorders, ICD10",1875
+"971",2015,"Female","90 - 94","Diseases of the nervous system, ICD10",920
+"972",2015,"Female","90 - 94","Diseases of the circulatory system, ICD10",6266
+"973",2015,"Female","90 - 94","Hypertensive diseases, ICD10",433
+"974",2015,"Female","90 - 94","Ischaemic heart diseases, ICD10",2296
+"975",2015,"Female","90 - 94","Cerebrovascular diseases, ICD10",1738
+"976",2015,"Female","90 - 94","Diseases of the respiratory  system, ICD10",1395
+"977",2015,"Female","90 - 94","Pneumonia, ICD10",445
+"978",2015,"Female","90 - 94","Chronic lower respiratory diseases, ICD10",590
+"979",2015,"Female","90 - 94","Diseases of the digestive system, ICD10",569
+"980",2015,"Female","90 - 94","Diseases of the genitourinary system, ICD10",526
+"981",2015,"Female","90 - 94","Disorders of kidney and ureter, ICD10",362
+"982",2015,"Female","90 - 94","External causes, ICD10",558
+"983",2015,"Female","90 - 94","Accidents, ICD10",534
+"984",2015,"Female","90 - 94","Falls, ICD10",366
+"985",2015,"Female","90 - 94","All causes, ICD10",15143
+"986",2015,"Female","95 +","Neoplasms, ICD10",573
+"987",2015,"Female","95 +","Malignant neoplasms, ICD10",539
+"988",2015,"Female","95 +","Mental and behavioural disorders, ICD10",1075
+"989",2015,"Female","95 +","Diseases of the nervous system, ICD10",404
+"990",2015,"Female","95 +","Diseases of the circulatory system, ICD10",3403
+"991",2015,"Female","95 +","Ischaemic heart diseases, ICD10",1311
+"992",2015,"Female","95 +","Cerebrovascular diseases, ICD10",867
+"993",2015,"Female","95 +","Diseases of the respiratory  system, ICD10",775
+"994",2015,"Female","95 +","Pneumonia, ICD10",350
+"995",2015,"Female","95 +","External causes, ICD10",314
+"996",2015,"Female","95 +","All causes, ICD10",7793
